@@ -1,5 +1,5 @@
 # Personal Health Dashboard Alerts to Slack
-This function will forward AWS Personal Health Dashboard events which are coming to your account directly to your Slack Channel.
+This function will forward AWS Personal Health Dashboard events - coming to your account - directly to your Slack Channel.
 
 1. Create one Lambda function 
 2. Check the Slack channel URL
@@ -8,5 +8,5 @@ This function will forward AWS Personal Health Dashboard events which are coming
 
 And you are Done!!
 
-We are using [Sample Json](https://github.com/ganatradeval/AWS_Lambda/Personal Health Dashboard (PHD Alerts)/AWS_PHD_Sample.json) for testing our Lambda.
+We are using [Sample Json]('https://github.com/ganatradeval/AWS_Lambda/Personal Health Dashboard (PHD Alerts)/AWS_PHD_Sample.json') for testing our Lambda.
 
