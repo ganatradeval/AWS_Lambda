@@ -1,0 +1,31 @@
+{
+  "version": "0",
+  "id": "7f58c35b-1f71-fcf2-4a4e-49edeb9b5848",
+  "detail-type": "AWS Health Event",
+  "source": "aws.health",
+  "account": "949195593353",
+  "time": "2018-07-02T00:00:00Z",
+  "region": "us-east-1",
+  "resources": [
+    "prod-webfilter2 / prod-webfilter2-0003-002 / Jul 03 2018 09:30 UTC"
+  ],
+  "detail": {
+    "eventArn": "arn:aws:health:us-east-1::event/AWS_ELASTICACHE_MAINTENANCE_NOTIFICATION_dd0fe65b-c8b9-432b-89a6-20507d031323",
+    "service": "ELASTICACHE",
+    "eventTypeCode": "AWS_ELASTICACHE_MAINTENANCE_NOTIFICATION",
+    "eventTypeCategory": "scheduledChange",
+    "startTime": "Mon, 2 Jul 2018 00:00:00 GMT",
+    "endTime": "Mon, 9 Jul 2018 00:59:00 GMT",
+    "eventDescription": [
+      {
+        "language": "en_US",
+        "latestDescription": "Your Amazon ElastiCache node(s) listed below are scheduled for replacement due to maintenance, which includes mandatory patches to improve security, reliability and operational performance. The maintenance will occur during the time range provided for each node. Please note that this is mandatory maintenance that will begin in your cluster’s maintenance window but may finish outside the window depending on the data and the load on the node(s).  Your ElastiCache instances scheduled for maintenance in the US-EAST-1 Region are located in the 'Affected resources' tab (format: ClusterName / NodeName / Replacement Time).  Replacements generally take few minutes to complete; however, syncing the data from the master node can take additional time. The nodes will be unavailable to service requests during this period. Refer to the ElastiCache Maintenance FAQs[1].  If you have any questions or concerns, please contact AWS Support[2].   [1] https://aws.amazon.com/elasticache/elasticache-maintenance/ [2] https://aws.amazon.com/support"
+      }
+    ],
+    "affectedEntities": [
+      {
+        "entityValue": "prod-webfilter2 / prod-webfilter2-0003-002 / Jul 03 2018 09:30 UTC"
+      }
+    ]
+  }
+}
