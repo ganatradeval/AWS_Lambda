@@ -10,4 +10,4 @@ And you are Done!!
 
 We are using [Sample Json](https://github.com/ganatradeval/AWS_Lambda/blob/master/Personal%20Health%20Dashboard%20(PHD%20Alerts)/AWS_PHD_Sample.json) for testing our Lambda.
 
-[!Sample Image ](https://d1.awsstatic.com/support/brath/PHD_Alert.1e0608887bb0353d05e2ae6666ca6ea099f66462.jpeg)
+![Sample Image ](https://d1.awsstatic.com/support/brath/PHD_Alert.1e0608887bb0353d05e2ae6666ca6ea099f66462.jpeg)
